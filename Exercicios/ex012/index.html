@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do navegador</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/fotop.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/fotom.png" type="image/png">
+        <img src="imagens/fotog.png" alt="imagem flexível">
+    </picture>
+    
+    <h1>Reproduzindo áudios</h1>
+    <p>Aprendendo a reproduzir áudios no site com HTML</p>
+    <audio src="midia/ruasdesp.mp3" controls></audio>
+    <!-- MP3 WAV OGG (tipos de audio q funciona em todos sites, eu acho)-->
+
+    <h2>outro jeito de colocar audio</h2>
+    <audio preload="metadata" controls>
+        <source src="midia/ruasdesp.mp3" type="audio/mpeg">
+        <source src="midia/ruasdesp.ogg" type="audio/ogg">
+        <source src="midia/ruasdesp.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não carrega áudio. <a href="midia/ruasdesp.mp3">Clique aqui para baixar.</a></p>
+    </audio>
+    <h2>Trabalhando com Vídeos</h2>
+    <video src="midia/pexels-vision-plug-15698543 (1080p).mp4" controls></video>
+</body>
+</html>

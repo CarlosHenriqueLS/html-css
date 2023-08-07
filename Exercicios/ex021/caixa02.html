@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(58, 111, 93);
+            margin: 0px;
+        }
+        
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1{
+            box-shadow: 2px 1px 4px 1px rgba(0, 0, 0, 0.369);
+        }
+
+        nav{
+            background-color: rgb(146, 152, 157);
+            padding: 3px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.678) ;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            
+        }
+
+        main{
+            background-color:aquamarine ;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 20px 20px 20px;
+        }
+
+        article{
+            background-color: rgb(35, 82, 66);
+            padding: 10px;
+            color: white;
+            border-radius: 4px;
+        }
+
+
+        article > aside{
+            background-color: rgb(20, 46, 37);
+
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+<main>
+    <section id="assuntos">
+        <h2>ESPORTE</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore recusandae sed qui et consectetur? Numquam tempora, culpa quod corrupti quo eos impedit debitis nisi. Neque esse voluptatum distinctio dignissimos nostrum?</p>
+
+    </section>
+    <section id="noticias">
+        <article>
+            <h2>Cabeça do meu amo</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed rem culpa aliquid ad libero! Exercitationem assumenda, vero modi minus dolorum consequuntur velit repudiandae consequatur non, debitis asperiores aliquam quos nihil.</p>
+            <aside>
+                <p>Artigo escrito por Cleyton Machado</p>
+            </aside>
+
+        </article>
+    </section>
+</main>
+<footer>
+    <p>Desenvolvido pelo Carlão</p>
+</footer>
+</body>
+</html>
