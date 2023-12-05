@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: #F79A87;
+}
+
+header {
+    background-color: #F2CEAB;
+}
+
+header > h1 {
+    color: white;
+    text-shadow: 1px 2px #f59090;
+    padding: 10px;
+    text-align: center;
+}
+
+i#burguer {
+    background-color: #f59090;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+i#burguer:hover {
+    background-color: #F15E5E;
+    color: black;
+    transform: scale(1.1);
+}
+
+menu {
+    display: none;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #72B5A4;
+    color: white;
+    border-top: 2px solid #f59090;
+    transition: 0.5s;
+}
+
+menu > ul >li > a:hover {
+    background-color: #F15E5E;
+    transform: scale(1.2);
+}
+
+main {
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px #F15E5E;
+}
+
+article > h2{
+    padding-bottom: 20px;
+    text-align: center;
+    color: #F15E5E;
+    text-shadow:1px 1px 2px #f59090;
+}
+
+article > p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
+    color: #504e4e;
+}

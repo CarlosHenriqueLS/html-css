@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Media Query/Menu</title>
+</head>
+<body>
+    <header>
+        <h1>Noticias do Carlão</h1>
+        <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Principal</a></li>
+                <li><a href="#">Loja</a></li>
+                <li><a href="#">Nossa Historia</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Membros</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>CBOLÃO 2023: LEC Team é campeão do torneio na CCXP23</h2>
+            <p>
+                O CBOLÃO 2023 na CCXP23 terminou neste domingo (3) com o título do LEC Team. O time liderado por Robo conseguiu a virada sobre Os Primos, por 2 a 1, na decisão do torneio de League of Legends (LoL) organizado por Baiano, parceiro do Omelete. Além do troféu, os campeões garantiram R$ 50 mil de premiação.
+
+                O confronto foi bem equilibrado. No primeiro mapa, o LEC Team não conseguiu evitar a derrota para Os Primos. O segundo teve um roteiro parecido com o primeiro, mas o LEC Team resistindo até que... venceu com direito ao Nexus explodindo com ajuda dos minions. Por fim, só deu LEC Team em Summoner's Rift: um passeio completo e 2 a 1 na série.
+            </p>
+
+            <p>
+                Vale contextualizar que Os Primos venceram a primeira edição do CBOLÃO 2023, mas com Brance e Jojo na rota inferior. Agora, a equipe teve Netuno e zay e não conseguiu evitar o vice-campeonato. Além de Robo, o time campeão desta edição teve Ranger, tinowns, TitaN e Damage.
+            </p>
+
+            <p>
+                O CBOLÃO 2023 é um dos diversos eventos que aconteceram na Game Arena da CCXP23, que termina neste domingo (3). A competição beneficiente arrecadou mais de R$ 290 mil para o Hospital de Amor, instituição brasileira que atende milhares de pacientes com câncer.
+            </p>
+        </article>
+    </main>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
