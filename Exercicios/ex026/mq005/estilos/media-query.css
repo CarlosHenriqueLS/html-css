@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@media screen and  (min-width: 768px) {
+    i#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+        text-align: center;
+        background-color: #72B5A4;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    menu > ul > li > a {
+        border-top: none;
+    }
+
+    menu > ul > li > a:hover {
+        transform: scale(1);
+    }
+
+    main {
+        max-width: 768px;
+    }
+}
